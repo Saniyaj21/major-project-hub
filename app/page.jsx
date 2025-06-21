@@ -1,7 +1,7 @@
 import React from 'react'
-import HeroSection from './components/home/HeroSection'
-import FeaturesSection from './components/home/FeaturesSection'
-import CTASection from './components/home/CTASection'
+import HeroSection from '@/components/home/HeroSection'
+import FeaturesSection from '@/components/home/FeaturesSection'
+import CTASection from '@/components/home/CTASection'
 
 const Page = () => {
   return (

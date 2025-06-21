@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import MentorshipHero from '../components/mentorship/MentorshipHero'
-import MentorshipAbout from '../components/mentorship/MentorshipAbout'
-import MentorshipServices from '../components/mentorship/MentorshipServices'
-import MentorshipPackages from '../components/mentorship/MentorshipPackages'
+import MentorshipHero from '@/components/mentorship/MentorshipHero'
+import MentorshipAbout from '@/components/mentorship/MentorshipAbout'
+import MentorshipServices from '@/components/mentorship/MentorshipServices'
+import MentorshipPackages from '@/components/mentorship/MentorshipPackages'
 
 const services = [
   {

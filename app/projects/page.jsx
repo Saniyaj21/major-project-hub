@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useMemo } from 'react'
-import ProjectsGrid from '../components/projects/ProjectsGrid'
+import ProjectsGrid from '@/components/projects/ProjectsGrid'
 
 // Mock data for projects - replace with actual data from database
 const projects = [

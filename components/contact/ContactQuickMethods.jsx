@@ -8,6 +8,8 @@ const ContactQuickMethods = ({ contactMethods }) => (
         <a
           key={index}
           href={method.link}
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-4 p-4 bg-white/80 backdrop-blur-lg rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300"
         >
           <div className="text-2xl">{method.icon}</div>

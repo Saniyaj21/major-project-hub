@@ -55,6 +55,9 @@ const Header = () => {
             <Link href="/mentorship" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
               Mentorship
             </Link>
+            <Link href="/about" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+              About
+            </Link>
             <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
               Contact
             </Link>
@@ -62,12 +65,9 @@ const Header = () => {
 
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Link href="/contact" className="text-blue-600 hover:text-blue-700 font-medium">
-              Get Started
+            <Link href="/contact" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 font-medium">
+              Book a Call
             </Link>
-            <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 font-medium">
-              Book 1:1 Call
-            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -134,6 +134,13 @@ const Header = () => {
               Mentorship
             </Link>
             <Link
+              href="/about"
+              className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors font-medium"
+              onClick={closeMobileMenu}
+            >
+              About
+            </Link>
+            <Link
               href="/contact"
               className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors font-medium"
               onClick={closeMobileMenu}
@@ -145,17 +152,11 @@ const Header = () => {
             <div className="pt-4 space-y-2">
               <Link
                 href="/contact"
-                className="block px-3 py-2 text-blue-600 hover:text-blue-700 font-medium"
+                className="w-full block text-center bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 font-medium"
                 onClick={closeMobileMenu}
               >
-                Get Started
+                Book a Free Call
               </Link>
-              <button 
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 font-medium"
-                onClick={closeMobileMenu}
-              >
-                Book 1:1 Call
-              </button>
             </div>
           </div>
         </div>

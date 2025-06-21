@@ -1,8 +1,8 @@
 import React from 'react'
-import ContactHeader from '../components/contact/ContactHeader'
-import ContactForm from '../components/contact/ContactForm'
-import ContactQuickMethods from '../components/contact/ContactQuickMethods'
-import ContactFAQ from '../components/contact/ContactFAQ'
+import ContactHeader from '@/components/contact/ContactHeader'
+import ContactForm from '@/components/contact/ContactForm'
+import ContactQuickMethods from '@/components/contact/ContactQuickMethods'
+import ContactFAQ from '@/components/contact/ContactFAQ'
 
 const ContactPage = () => {
   const faqs = [
@@ -38,21 +38,21 @@ const ContactPage = () => {
       description: "Send me a detailed message about your project requirements",
       icon: "📧",
       action: "Send Email",
-      link: "mailto:mentor@projecthub.com"
+      link: "mailto:saniyajmallik12@gmail.com"
     },
     {
       title: "WhatsApp",
       description: "Quick questions and instant responses",
       icon: "💬",
       action: "Chat on WhatsApp",
-      link: "https://wa.me/1234567890"
+      link: "https://wa.me/9732769215"
     },
     {
       title: "LinkedIn",
       description: "Connect professionally and view my portfolio",
       icon: "💼",
       action: "Connect on LinkedIn",
-      link: "https://linkedin.com/in/projectmentor"
+      link: "https://www.linkedin.com/in/saniyaj-mallik-27809923a/"
     }
   ]
 
@@ -60,6 +60,12 @@ const ContactPage = () => {
     <main className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
         <ContactHeader />
+        <div className="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 rounded-md my-8 text-center shadow-sm">
+          <p className="font-bold text-lg">Hourly Consultation: ₹100 per hour</p>
+          <p className="text-sm mt-1">
+            Perfect for quick questions, code reviews, or targeted guidance. Just mention your needs when you reach out!
+          </p>
+        </div>
         <section className="grid lg:grid-cols-2 gap-8 sm:gap-12 mb-12 sm:mb-16">
           <ContactForm />
           <div className="space-y-6 sm:space-y-8">
